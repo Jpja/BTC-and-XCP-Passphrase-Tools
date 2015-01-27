@@ -4,7 +4,7 @@ A tool to allow you to check/retrieve/generate your counterwallet bitcoin addres
 
 ---
 
-Copyright (c) 2015-Present mtbitcoin (blockscan.com)
+Copyright (c) 2015 mtbitcoin (blockscan.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
