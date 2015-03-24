@@ -1,6 +1,6 @@
 # cw_address_key_generator
 
-A tool to allow you to check/retrieve/generate your counterwallet bitcoin addresses/keys using your counterwallet 12 word passphrase
+A tool to allow you to check/retrieve/generate your counterwallet bitcoin addresses/keys using your counterwallet 12 word passphrase. And to also sign messages with your private keys
 
 ---
 
