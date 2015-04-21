@@ -8,4 +8,3 @@ Use at own risk! No warranty!
 
 TODO
 * Display QR codes
-* Upload logo or (better) embed the .png into the javasacript
