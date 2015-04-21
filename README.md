@@ -9,4 +9,3 @@ Use at own risk! No warranty!
 TODO
 * Display QR codes
 * Upload logo or (better) embed the .png into the javasacript
-* Include all libraries in the html file (for easy of use - no reliance on relative paths)
