@@ -61,7 +61,7 @@ function myFunction() {
 			hash = CryptoJS.SHA256(i + hash + j);
 		}
 		Math.seedrandom(hash);
-		passphrase[i] = words[Math.floor(Math.random()*1627)];
+		passphrase[i] = words[Math.floor(Math.random()*words.length)];
 		passphraseprint += passphrase[i] + " ";
 	}
 	
