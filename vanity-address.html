@@ -277,7 +277,7 @@ function myFunction() {
 	else if (elapsed < 7200) 	elapsedprint = "1 hour " + Math.floor(elapsed/60) % 60 + " min " + (elapsed % 60).toFixed(0) + " sec";
 	else					 	elapsedprint = Math.floor(elapsed/3600) + " hours " + Math.floor(elapsed/60) % 60 + " min " + (elapsed % 60).toFixed(0) + " sec";
 	
-	document.getElementById("demo").innerHTML = "<p>&nbsp;</p><p>Success! Passphrase found after " + elapsed + " .. " + elapsedprint + " (" + (count+1) + " iterations).<h2>" + passphraseprint + "</h2>Keep these 12 words secret! If someone gets your passphrase, they gain access to your funds!<br /></p><p>Address #1: " + addresses[0] + "<br />Address #2: " + addresses[1] + "<br />Address #3: " + addresses[2] + "</p>";
+	document.getElementById("demo").innerHTML = "<p>&nbsp;</p><p>Success! Passphrase found after " + elapsedprint + " (" + (count+1) + " iterations).<h2>" + passphraseprint + "</h2>Keep these 12 words secret! If someone gets your passphrase, they gain access to your funds!<br /></p><p>Address #1: " + addresses[0] + "<br />Address #2: " + addresses[1] + "<br />Address #3: " + addresses[2] + "</p>";
 
 }
 </script>
