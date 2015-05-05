@@ -1,5 +1,9 @@
 ##BTC and XCP Passphrase Tools##
 
+* Each tool is a separate html file which can run offline. You do not need to unzip the directory to run a tool.
+* I encourage other to review the code and potentially improve/fork it.
+**Tools are experimental. Pending security audit. Use at own risk!**
+
 
 ###Paperwallet###
 
@@ -8,8 +12,6 @@ Outputs a printer friendly paper wallet.
 It prints the list of Bitcoin/Counterparty addresses and (optionally) private keys derived from a passphrase. The passphrase is compatible with Counterwallet, XCP Wallet for Chrome, and GetGems Messenger.
 
  * The code is forked from Blockscan's key generation tool. All changes are cosmetic.
- * The html file can run offline. All code is included in this file, so you do not need to unzip the directory to run it.
- * I cannot guarantee that the code is bug free. I encourage other to review the code and potentially improve/fork it.
 
 
 ###Vanity-address###
@@ -32,6 +34,3 @@ Finds a passphrase with vanity addresses. Specify vanity patterns for up to thre
 Generates a 12-word passphrase from a text input. The passphrase can be used in Counterwallet, XCP Chrome Wallet and GetGems Messenger.
 
  * It can be used as a sort of brain wallet. I advice against using it as such, but feel free to play around.
-
-
-**Tools are experimental. Pending security audit. Use at own risk!**
