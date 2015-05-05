@@ -52,7 +52,8 @@ function randomHashInput() {
 	var d = new Date();
     var n = d.getMilliseconds();
 	var randstring = d + Math.random() + n + Math.random() + Math.random();
-	document.getElementById("inputphrase").value = CryptoJS.SHA256(randstring);
+	randstring = CryptoJS.SHA256(randstring).toString();
+	document.getElementById("inputphrase").value = randstring.substring(0,32);
 }
 function myFunction() {
     // 1626 word dictionary for passphrase
