@@ -1,7 +1,7 @@
-**BTC and XCP Passphrase Tools**
+#BTC and XCP Passphrase Tools#
 
 
-**Paperwallet**
+##Paperwallet##
 
 Outputs a printer friendly paper wallet.
 
