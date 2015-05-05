@@ -34,4 +34,4 @@ Generates a 12-word passphrase from a text input. The passphrase can be used in 
  * It can be used as a sort of brain wallet. I advice against using it as such, but feel free to play around.
 
 
-Tools are experimental. Pending security audit. Use at own risk!
+**Tools are experimental. Pending security audit. Use at own risk!**
