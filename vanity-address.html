@@ -140,7 +140,7 @@ function myFunction() {
 			else patternok = false;
 			if (patternok == false) break;
 		}
-		if (count === 1000 && x.indexOf("inf") === -1) { document.getElementById("demo").innerHTML = "Tried 1000 passphrases but could not find the specified patterns.<br />Please consider easier patterns or write <i>inf</i> at the beginning of the text<br />to allow the program to loop until patterns are found (may take a very long time)."; return; }
+		if (count === 50 && x.indexOf("inf") === -1) { document.getElementById("demo").innerHTML = "Tried 50 passphrases but could not find the specified patterns.<br />Type <i>inf</i> at the beginning of the text to allow to loop until pattern is discovered (may take a very long time)."; return; }
 	} while (patternok == false);
 
 	for (i = 0; i < 12; i++) {
