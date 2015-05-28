@@ -47,4 +47,4 @@ Generates a 12-word passphrase with words only of a specified length.
  
 ###Dictionary###
 
-Displays all the 1626 words used to generates a 12-word passphrase.
+Displays all the 1626 words used to generate a 12-word passphrase.
