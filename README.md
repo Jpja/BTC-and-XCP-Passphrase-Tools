@@ -35,3 +35,16 @@ Finds a passphrase with vanity addresses. Specify vanity patterns for up to thre
 Generates a 12-word passphrase from a text input. The passphrase can be used in Counterwallet, XCP Chrome Wallet and GetGems Messenger.
 
  * It can be used as a sort of brain wallet. I advice against using it as such, but feel free to play around.
+ 
+ 
+###Formatted###
+
+Generates a 12-word passphrase with words only of a specified length.
+
+ * It can be useful for example for a mobile app where a shorter passphrase is needed to fit the screen.
+ * The downisde is security. Only a subset of the dictionary is used, hence significantly fewer possible combinations.
+ 
+ 
+###Dictionary###
+
+Displays all the 1626 words used to generates a 12-word passphrase.
