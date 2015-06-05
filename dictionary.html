@@ -2,8 +2,27 @@
 <html>
 <head>
 	<title>Passphrase Dictionary</title>
+	
+	<style>
+		#page-wrap {
+			 width: 700px; 
+			 margin: 0 auto;
+		}
+		table, th, td {
+			border: 0px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 5px;
+			text-align: left;    
+		}
+		#footer {
+			font-size: 12px;
+		}
+	</style>
 </head>
 <body style="font-family:courier; padding:30px" onload="displayDictionary()">
+	<div id="page-wrap">
 
 <h1>Passphrase Dictionary</h1>
 <p>Here's a list of words used in 12-word passphrases.</p>
@@ -31,5 +50,10 @@ function displayDictionary() {
 }
 </script>
 
+	<div style="margin-top: 50px; margin-bottom: 0px;" id="footer">
+		No warranty.<br />
+		Developed by JP Janssen. View on <a href="https://github.com/jpja">GitHub</a>. Skype: jp.janssen. <a href="https://twitter.com/jp_janssen">Twitter</a>. <a href="https://counterpartytalk.org/users/jpja/activity">CounterpartyTalk</a>.<br />
+	</div>
+	</div>
 </body>
 </html> 
