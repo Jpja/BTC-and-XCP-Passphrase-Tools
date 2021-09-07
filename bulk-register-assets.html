@@ -2,7 +2,7 @@
 <head>
 <script>
 	var passphrase = ""; //Recommended to leave empty. Insert in GUI is safer
-	var addresses = []; //e.g. ["1AUdpyKk97BfSR7wKeUVhhMprY89q32vuv","1BvWTrhAUZDmiEG1hu66RFkH3wCnn6V4DJ"]; . Any amount of addresses. All must be derived from the passphrase. Must contatin 0.5 XCP and BTC dust for each registation
+	var addresses = []; //e.g. ["1AUdpyKk97BfSR7wKeUVhhMprY89q32vuv","]; . Any amount of addresses. All must be derived from the passphrase. Must contatin 0.5 XCP and BTC dust for each registation
 	var register_these = []; //e.g. ["MYTOKENONE","MYTOKENTWO","MYTOKENTHREE"];
 	var sleep_seconds = 420; 	//Time between registrations. For one full loop 3600 sec is recommended. Therefore set to 3600 if you use one address, 1800 if two addresses, 1200 if three addresses, etc
 	var msig_total = 0.00007800;  //total btc to multisig output (returned to sender)
@@ -23,8 +23,8 @@
 4.  Save this html file locally on your computer. 
 5.  Open it in a text editor.
 6.  Fill in your addresse(s) in the parameter field above (as illustraded below); 
-	 var addresses = [
-	 "1AUdpyKk97BfSR7wKeUVhhMprY89q32vuv","1BvWTrhAUZDmiEG1hu66RFkH3wCnn6V4DJ","1CZzkchCa3bJqihFkrqCGfH67HSWk9U3BB"
+	 var addresses = [3HHoiPykuHPvpiecsMDYHNtgCWESwFAL7Y
+	 "1AUdpyKk97BfSR7wKeUVhhMprY89q32vuv","1CZzkchCa3bJqihFkrqCGfH67HSWk9U3BB"
 	 ];
 	 Be careful to include quotes around the addresses and separate them with commas.
 	 You can insert as many addresses as you like. Make sure each address conatins enough XCP and some BTC dust.
@@ -336,7 +336,7 @@
 
 			See Also:
 
-				<ZERO>, <ONE>, <_0>, <_1>
+				<ZERO>, <ONE>, <_0>, <_
 		*/
 		BigIntegerSM.small = [
 			ZERO,
@@ -371,7 +371,7 @@
 			new BigIntegerSM([28], 1, CONSTRUCT),
 			new BigIntegerSM([29], 1, CONSTRUCT),
 			new BigIntegerSM([30], 1, CONSTRUCT),
-			new BigIntegerSM([31], 1, CONSTRUCT),
+			new BigIntegerSM([31], 1, m
 			new BigIntegerSM([32], 1, CONSTRUCT),
 			new BigIntegerSM([33], 1, CONSTRUCT),
 			new BigIntegerSM([34], 1, CONSTRUCT),
@@ -584,7 +584,7 @@
 
 				// Strip leading zeros, and convert to array
 				digits = digits.replace(/^0+/, "").split("");
-				if (digits.length === 0) {
+				if (digits.length === 0) 
 					return ZERO;
 				}
 
@@ -889,7 +889,7 @@
 		})();
 
 		/*
-			Function: compareAbs
+			Function: compa
 			Compare the absolute value of two <BigIntegerSMs>.
 
 			Calling <compareAbs> is faster than calling <abs> twice, then <compare>.
